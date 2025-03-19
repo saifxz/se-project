@@ -56,7 +56,7 @@ export const MainRoutes = () => {
           <Route path="add-event" element={<AddEvent />}/>
         </Route>
 
-        <Route path="/fundraising" element={<FundraiseIndexPage />}>
+        {/* <Route path="/fundraising" element={<FundraiseIndexPage />}>
           <Route index element={<Fundraise />}></Route>
           <Route path="add-fundraise" element={<AddFundraise />}/>
         </Route>
@@ -68,7 +68,7 @@ export const MainRoutes = () => {
         <Route path="/budgetAllocate" element={<BudgetIndexPage />}>
           <Route index element={<Budget />}></Route>
           <Route path="add-budget" element={<AddBudget />}/>
-        </Route>
+        </Route> */}
 
         <Route path="/fundonations" element={<FundDonation />} />
        

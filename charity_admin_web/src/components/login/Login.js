@@ -76,7 +76,8 @@ export const Login = () => {
 
           <div className="flex flex-col items-center w-full">
             <h3 className="header_3 hidden md:block">
-              Welcome to Charity Management
+              Donation mangament admin
+          
             </h3>
 
             <div className="flex flex-col w-4/5">

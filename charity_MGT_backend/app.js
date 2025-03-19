@@ -55,11 +55,11 @@ app.use('/api/v1/categories',categoryRoutes);
 // charity route
 app.use('/api/v1/charities',charityRoute);
 app.use('/api/v1/donations',donationRoute);
-app.use('/api/v1/fundraises',fundraiseRoute);
+// app.use('/api/v1/fundraises',fundraiseRoute);
 app.use('/api/v1/donateFund',donateFundRoute);
-app.use('/api/v1/tasks',taskRoute);
-app.use('/api/v1/reports',reportRoute);
-app.use('/api/v1/events',eventsRoute);
+// app.use('/api/v1/tasks',taskRoute);
+// app.use('/api/v1/reports',reportRoute);
+// app.use('/api/v1/events',eventsRoute);
 app.use('/api/v1/register',registerEvent);
 app.use('/api/v1/budget',budgetRoute);
 app.use('/api/v1/generateReport',generateRoute);
